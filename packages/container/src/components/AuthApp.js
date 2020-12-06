@@ -16,7 +16,6 @@ export default ({onSignIn}) => {
         }
       },
       onSignIn: () => {
-        console.log("i am called")
         onSignIn()
       }
     });
